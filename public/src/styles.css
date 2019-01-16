@@ -1,0 +1,34 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    width:970px;
+    min-height:300px;
+    margin:0px auto;
+    text-align: center;
+}
+
+app-root{
+    display: block;
+    margin-top: 50px;
+    font-size: 25px;
+    border:2px solid blue;
+    border-radius: 25px;
+}
+
+app-product, app-review{
+    display: block;
+    border-radius: 25px;
+    margin:15px;
+    border:2px solid green;
+}
+
+app-author, 
+app-brand, 
+app-category, 
+app-product-detail, 
+app-review-detail, 
+app-all-reviews{
+    display:block;
+    margin:15px;
+    border:2px solid red;
+    border-radius: 25px;
+}
